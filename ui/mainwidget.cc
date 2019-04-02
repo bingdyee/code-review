@@ -5,8 +5,6 @@
 #include <QSqlQuery>
 
 #include "ui/mainwidget.h"
-#include "utils/cryptography.h"
-
 
 
 MainWidget::MainWidget(QWidget *parent)
@@ -16,7 +14,6 @@ MainWidget::MainWidget(QWidget *parent)
     btn->setText(QString("按钮"));
     Eigen::MatrixXd matrix(2, 2);
     qDebug() << matrix.rows() << endl;
-    codespot::Cryptography crypto;
     ConnectionTest();
 }
 

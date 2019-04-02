@@ -29,14 +29,12 @@ INCLUDEPATH += ./third_party
 SOURCES += \
     main.cc \
     ui/mainwidget.cc \
-    utils/commons.cc \
-    utils/cryptography.cc
+    utils/commons.cc
 
 HEADERS += \
     mainwidget.h \
     ui/mainwidget.h \
-    utils/commons.h \
-    utils/cryptography.h
+    utils/commons.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
